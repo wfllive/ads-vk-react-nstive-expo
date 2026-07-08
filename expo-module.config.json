@@ -1,0 +1,14 @@
+{
+  "platforms": ["android", "ios"],
+  "android": {
+    "modules": [
+      "expo.modules.vkads.VKAdsModule",
+      "expo.modules.vkads.VKAdsBannerView"
+    ]
+  },
+  "ios": {
+    "modules": [
+      "VKAdsModule"
+    ]
+  }
+}

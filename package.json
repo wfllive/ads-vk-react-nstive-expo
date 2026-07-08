@@ -1,0 +1,43 @@
+{
+  "name": "ads-vk-react-native-expo",
+  "version": "0.1.0",
+  "description": "VK Ads (myTarget) SDK for React Native Expo — supports Banner, Interstitial, Rewarded, and Native ads",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module",
+    "open:ios": "xed example/ios",
+    "open:android": "open -a \"Android Studio\" example/android"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "vk-ads",
+    "mytarget",
+    "ads",
+    "advertising",
+    "banner",
+    "interstitial",
+    "rewarded",
+    "native-ads"
+  ],
+  "repository": "https://github.com/wfllive/ads-vk-react-native-expo",
+  "author": "wfllive",
+  "license": "MIT",
+  "homepage": "https://github.com/wfllive/ads-vk-react-native-expo#readme",
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "@types/react": "~18.3.0",
+    "expo-module-scripts": "^4.0.0",
+    "typescript": "^5.1.0"
+  }
+}

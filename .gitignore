@@ -1,0 +1,17 @@
+node_modules/
+build/
+.gradle/
+*.iml
+.idea/
+*.hprof
+.expo/
+dist/
+example/android/.gradle
+example/android/app/build/
+example/android/build/
+example/android/local.properties
+example/ios/Pods/
+example/ios/build/
+*.xcworkspace
+*.xcuserdata
+Pods/
