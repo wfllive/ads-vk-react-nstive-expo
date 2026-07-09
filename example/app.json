@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "VK Ads Example",
+    "slug": "vkads-example",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.vkads"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.example.vkads"
+    },
+    "plugins": [
+      [
+        "ads-vk-react-native-expo",
+        {
+          "debugMode": true
+        }
+      ]
+    ]
+  }
+}

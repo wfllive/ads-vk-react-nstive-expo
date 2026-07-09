@@ -1,0 +1,30 @@
+{
+  "name": "vkads-example",
+  "version": "1.0.0",
+  "private": true,
+  "main": "App.tsx",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "prebuild": "expo prebuild --platform android",
+    "prebuild:clean": "expo prebuild --clean --platform android",
+    "build:dev": "expo run:android --variant debug",
+    "build:release": "cd android && ./gradlew assembleRelease",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "ads-vk-react-native-expo": "file:..",
+    "expo": "~52.0.0",
+    "expo-status-bar": "~2.0.0",
+    "react": "18.3.1",
+    "react-native": "0.76.1",
+    "react-native-safe-area-context": "4.12.0",
+    "react-native-screens": "~4.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.0",
+    "@types/react": "~18.3.0",
+    "typescript": "^5.3.0"
+  }
+}
