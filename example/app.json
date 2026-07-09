@@ -15,13 +15,15 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.example.vkads"
+      "bundleIdentifier": "com.example.vkads",
+      "newArchEnabled": true
     },
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#ffffff"
       },
-      "package": "com.example.vkads"
+      "package": "com.example.vkads",
+      "newArchEnabled": true
     },
     "plugins": [
       [
